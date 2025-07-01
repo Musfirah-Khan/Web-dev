@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Table Tutorial</h1>
+    <table border="2" align="center">
+        <caption>Learn HTML Table Tags and Concepts</caption>
+       <thead> <tr>
+            <th>Tag / Attribute</th>
+            <th>Purpose</th>
+            <th>Example</th>
+            <th>Output Example</th>
+        </tr></thead>
+        <tbody>
+        <tr>
+            <td> &lt;table&gt; </td>
+            <td> Defines the table container </td>
+            <td> &lt;table&gt;...&lt;/table&gt; </td>
+            <td><table border="1"><tr><td>Example</td></tr></table></td>
+        </tr>
+        <tr>
+            <td>&lt;tr&gt;</td>
+            <td>Defines a row in a table</td>
+            <td>&lt;tr&gt;&lt;/tr&gt;</td>
+            <td><table border="1"><tr><td>Row 1</td></tr> <tr><td>Row 2</td></tr></table></td>
+        </tr>
+        <tr>
+            <td>&lt;th&lt;</td>
+             <td>Defines a header cell</td>
+             <td>&lt;th&gt; Title &lt;/th&gt;</td>
+             <td><table border="1"><tr><th>Header</th></tr></table></td>
+        </tr>
+        <tr>
+            <td>&lt;td&gt;</td>
+            <td>Defines a data cell</td>
+            <td>&lt;td&gt; Content &lt;/td&gt;</td>
+            <td><table border="1"><tr><td>Data</td></tr></table></td>
+        </tr>
+        <tr>
+            <td>&lt;caption&gt;</td>
+            <td>Gives a title or description to the table</td>
+            <td>&lt;caption&gt; My Table &lt;caption&gt;</td>
+            <td><table border="1"><caption>My Table</caption><tr><td>Content</td></tr></table></td>
+        </tr>
+        <tr>
+            <td>border="1"</td>
+            <td>Adds borders to the table</td>
+            <td>&lt;table border="1"&gt;</td>
+            <td><table border="1"><tr><td>With border</td></tr></table></td>
+        </tr>
+        <tr>
+            <td>colspan</td>
+            <td>Merges multiple columns into one cell</td>
+            <td>&lt;td colspan="2"&gt;  Merged &lt;/td&gt;</td>
+            <td><table border="1"><tr><td colspan="2">Merged Cell</td></tr> <tr><td>Cell 1</td> <td>Cell 2</td></tr></table></td>
+        </tr>
+        <tr>
+            <td>rowspan</td>
+            <td>Merges multiple rows into one cell</td>
+            <td>&lt;td rowspan="2"&gt; Merged &lt;/td&gt;</td></td>
+            <td><table border="1"><tr><td rowspan="2">Merged</td> <td>Row 1</td></tr> <tr><td>Row 2</td></tr></table></td>
+        </tr>
+        <tr>
+            <td>Nesting Tables</td>
+            <td>Putting one table inside a cell of another</td>
+            <td>&lt;td&gt; &lt;table&gt;.....&lt;/td&gt; &lt;/table&gt;</td>
+            <td><table border="1"><tr><td>Outer</td></tr> <tr><td><table border="1"><tr><td>Inner</td></tr></table></td></tr></table></td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
