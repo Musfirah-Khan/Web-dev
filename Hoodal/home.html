@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoodal - Today's Deals</title>
+  <link rel="stylesheet" href="home.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Header/Navbar -->
+  <header class="navbar">
+    <div class="nav-left">
+      <div class="logo">
+        <img src="https://i.imgur.com/U5fG9Vb.png" alt="hoodal logo" />
+        <span>hoodal</span>
+      </div>
+      <div class="location">
+        <i class="fas fa-location-dot"></i>
+        <div class="location-text">
+          <span>Deliver to</span>
+          <strong>Current Location</strong>
+        </div>
+      </div>
+    </div>
+
+  <div class="nav-center">
+  <div class="search-wrapper">
+    <div class="dropdown-wrapper">
+  <select class="dropdown">
+    <option>All Departments</option>
+    <option>Grocery</option>
+    <option>Electronics</option>
+    <option>Fashion</option>
+    <option>Home & Kitchen</option>
+    <option>Local Favorites</option>
+  </select>
+  <i class="fas fa-chevron-down dropdown-arrow"></i>
+</div>
+
+    <input type="text" class="search" placeholder="Search products in your neighborhood..." />
+    <button class="search-btn"><i class="fas fa-search"></i></button>
+  </div>
+</div>
+
+    <div class="nav-right">
+      <div class="user-info">
+        <span>Hello, User</span>
+        <strong>Account & Lists <i class="fas fa-chevron-down"></i></strong>
+      </div>
+      <div class="user-info">
+        <span>Returns</span>
+        <strong>& Orders</strong>
+      </div>
+       <div><i class="fa-solid fa-arrow-right-from-bracket"></i></div> 
+    </div>
+  </header>
+
+  <!-- Category Bar -->
+  <nav class="categories">
+    <a href="#"><i class="fas fa-bars"></i> All</a>
+    <a href="#">Grocery</a>
+    <a href="#">Electronics</a>
+    <a href="#">Fashion</a>
+    <a href="#">Home & Kitchen</a>
+    <a href="#">Local Favorites</a>
+  </nav>
+
+
+  <main class="main-section">
+    <h2>Today's Deals</h2>
+    <div class="cards">
+      <!-- Card 1 -->
+      <div class="card">
+        <div class="card-img">
+          <img src="https://i.imgur.com/dnvsIlm.jpg" alt="Apples" />
+          <span class="badge">Local Product</span>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="card-body">
+          <h3>Local Farm Apples</h3>
+          <p class="stars">★★★★★ <span>(42)</span></p>
+          <p class="price">$4.99 <span>/ kg</span></p>
+          <p class="desc">Fresh apples from nearby farms, picked this morning</p>
+          <p class="stock">In Stock (50 kgs)</p>
+          <button class="cart-btn"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <div class="card-img">
+          <img src="https://i.imgur.com/xSxz3vJ.jpg" alt="Bread" />
+          <span class="badge">Local Product</span>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="card-body">
+          <h3>Artisan Sourdough</h3>
+          <p class="stars">★★★★★ <span>(42)</span></p>
+          <p class="price">$6.99 <span>/ loaf</span></p>
+          <p class="desc">Freshly baked hot and soft artisan sourdough bread</p>
+          <p class="stock">In Stock (20 loafs)</p>
+          <button class="cart-btn"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <div class="card-img">
+          <img src="https://i.imgur.com/b1I0yRK.jpg" alt="Earbuds" />
+          <span class="badge">Local Product</span>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="card-body">
+          <h3>Premium Wireless Earbuds</h3>
+          <p class="stars">★★★★★ <span>(42)</span></p>
+          <p class="price">$79.99 <span>/ piece</span></p>
+          <p class="desc">High-quality wireless earbuds with local warranty support</p>
+          <p class="stock">In Stock (15 pieces)</p>
+          <button class="cart-btn"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card">
+        <div class="card-img">
+          <img src="https://i.imgur.com/PrGDC7F.jpg" alt="Fruit Basket" />
+          <span class="badge">Local Product</span>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="card-body">
+          <h3>Seasonal Fruit Basket</h3>
+          <p class="stars">★★★★★ <span>(42)</span></p>
+          <p class="price">$24.99 <span>/ basket</span></p>
+          <p class="desc">Handpicked selection of seasonal local fruits</p>
+          <p class="stock">In Stock (10 baskets)</p>
+          <button class="cart-btn"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+        </div>
+      </div>
+    </div>
+<section class="shops-section">
+  <h2 class="shops-title">Shops Near You</h2>
+  <div class="shops-grid">
+
+    <!-- Card 1 -->
+    <div class="shop-card">
+      <div class="shop-img">
+        <img src="your-image-path/veggies.jpg" alt="Corner Fresh Market" />
+        <div class="rating-badge">
+          <i class="fas fa-star"></i> 4.8
+        </div>
+      </div>
+      <div class="shop-info">
+        <h3>Corner Fresh Market</h3>
+        <p>Your neighborhood fresh market with locally sourced produce</p>
+        <div class="shop-meta">
+          <span><i class="fas fa-map-marker-alt"></i> 850m</span>
+          <span><i class="fas fa-clock"></i> 7:00 AM - 9:00 PM</span>
+        </div>
+        <div class="tags">
+          <span>Grocery</span>
+          <span>Fresh Produce</span>
+          <span>Local Favorites</span>
+        </div>
+        <a href="#" class="view-link">View Products <i class="fas fa-chevron-right"></i></a>
+      </div>
+    </div>
+
+    <!-- Repeat for other cards -->
+
+    <div class="shop-card">
+      <div class="shop-img">
+        <img src="your-image-path/electronics.jpg" alt="Neighborhood Electronics" />
+        <div class="rating-badge">
+          <i class="fas fa-star"></i> 4.6
+        </div>
+      </div>
+      <div class="shop-info">
+        <h3>Neighborhood Electronics</h3>
+        <p>Expert tech solutions right in your neighborhood</p>
+        <div class="shop-meta">
+          <span><i class="fas fa-map-marker-alt"></i> 1.2 km</span>
+          <span><i class="fas fa-clock"></i> 9:00 AM - 8:00 PM</span>
+        </div>
+        <div class="tags">
+          <span>Electronics</span>
+          <span>Repairs</span>
+          <span>Accessories</span>
+        </div>
+        <a href="#" class="view-link">View Products <i class="fas fa-chevron-right"></i></a>
+      </div>
+    </div>
+
+    <div class="shop-card">
+      <div class="shop-img">
+        <img src="your-image-path/fashion.jpg" alt="Local Fashion Stop" />
+        <div class="rating-badge">
+          <i class="fas fa-star"></i> 4.7
+        </div>
+      </div>
+      <div class="shop-info">
+        <h3>Local Fashion Stop</h3>
+        <p>Trendy fashion with a local touch</p>
+        <div class="shop-meta">
+          <span><i class="fas fa-map-marker-alt"></i> 600m</span>
+          <span><i class="fas fa-clock"></i> 10:00 AM - 9:00 PM</span>
+        </div>
+        <div class="tags">
+          <span>Clothing</span>
+          <span>Accessories</span>
+          <span>Local Designers</span>
+        </div>
+        <a href="#" class="view-link">View Products <i class="fas fa-chevron-right"></i></a>
+      </div>
+    </div>
+
+    <div class="shop-card">
+      <div class="shop-img">
+        <img src="your-image-path/bakery.jpg" alt="Community Bakery" />
+        <div class="rating-badge">
+          <i class="fas fa-star"></i> 4.9
+        </div>
+      </div>
+      <div class="shop-info">
+        <h3>Community Bakery</h3>
+        <p>Fresh baked goods made with love</p>
+        <div class="shop-meta">
+          <span><i class="fas fa-map-marker-alt"></i> 450m</span>
+          <span><i class="fas fa-clock"></i> 6:00 AM - 7:00 PM</span>
+        </div>
+        <div class="tags">
+          <span>Bakery</span>
+          <span>Coffee</span>
+          <span>Breakfast</span>
+        </div>
+        <a href="#" class="view-link">View Products <i class="fas fa-chevron-right"></i></a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Floating Cart Message -->
+<div class="floating-cart">
+  <i class="fas fa-shopping-cart"></i>
+  <span>Your cart is empty</span>
+</div>
+  </main>
+  <script src="home.js"></script>
+</body>
+</html>
+
